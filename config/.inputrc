@@ -12,3 +12,12 @@ Control-n:history-search-forward
 "\e[B":history-search-forward
 "\e[C":forward-char
 "\e[D":backward-char
+
+# Meta+Direction and other keybindings for OSX, similar to windows
+"\e(": kill-word
+"\e[3~": delete-char
+"\e\e[C": forward-word
+"\e[5C": forward-word
+"\e\e[D": backward-word
+"\e[5D": backward-word
+"\ez": undo
