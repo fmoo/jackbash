@@ -30,3 +30,8 @@ if [ -e $HOME/.inputrc ]; then
   mv $HOME/.inputrc $HOME/.inputrc_backup
 fi;
 ln -s $INSTALL_DIR/config/.inputrc $HOME/.inputrc
+
+if [ -e $HOME/.vimrc ]; then
+  mv $HOME/.vimrc $HOME/.vimrc_backup
+fi;
+ln -s $INSTALL_DIR/config/.vimrc $HOME/.vimrc
