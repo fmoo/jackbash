@@ -1,7 +1,4 @@
-escape ^]]                             # set escape to ctrl-].  Emacs friendly
-
-# default startup shell
-shell                 bash
+shell -/bin/bash                        # Need the '-' so it reads the shell profile scripts
 
 # The shelltitle is important. Otherwise all new windows will display a default 
 #  title of "bash" (usually) and clutter up your elite new status bar. You can
@@ -24,3 +21,9 @@ hardstatus string  '%{= Kw}%-Lw%{=b bW}%50>%n: %t%{= Kw}%+Lw%< %{= kG}%-=%D %d %
 # startup some programs in the appropriate windows
 #screen 2 program
 #screen 0
+
+# Update some keybindings
+bindkey , prev
+bindkey . next
+
+bindkey \011 focus down
