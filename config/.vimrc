@@ -38,11 +38,6 @@ hi Directory ctermfg=Cyan
 
 highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
 
-map OA {
-map OB }
-map! OA {
-map! OB }
-
 imap Ow 7
 imap Ox 8
 imap Oy 9
