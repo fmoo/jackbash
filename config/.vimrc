@@ -3,6 +3,7 @@ set shiftwidth=2
 set tabstop=2
 set timeoutlen=50
 set ttimeoutlen=50
+set backspace=2
 
 set laststatus=2
 "set statusline=%F%m%r%h%w\%=[L:\%l\ C:\%c\ A:\%b\ H:\x%B\ P:\%p%%]
