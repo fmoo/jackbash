@@ -78,9 +78,14 @@ map! OD <C-Left>
 map! OC <C-Right>
 
 map OA {
+map [A {
 map OB }
+map [B }
+
 map! OA {
+map! [A {
 map! OB }
+map! [B }
 
 map ( dw
 map  db
