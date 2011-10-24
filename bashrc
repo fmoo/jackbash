@@ -70,7 +70,7 @@ export HOSTNAME_SCRUB=`hostname | sed -e s/[^a-z0-9_]//g`
 export EDITOR=`which vim`
 export SVN_EDITOR=`which vim`
 export GIT_EDITOR=`which vim`
-export PAGER=`which less`
+export PAGER="`which less` -R"
 export LS_COLORS="no=00:\
 fi=00:\
 di=01;36:\
