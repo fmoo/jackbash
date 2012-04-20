@@ -97,3 +97,4 @@ map > w
 map! < W
 map! > w
 
+filetype plugin indent on
