@@ -15,15 +15,18 @@ Control-n:history-search-forward
 
 # Meta+Direction and other keybindings for OSX, similar to windows
 "\e(": kill-word
+"\e[3;3~": kill-word
 
 "\e[3~": delete-char
 
 "\e\e[C": forward-word
 "\e[1;5C": forward-word
+"\e[1;3C": forward-word
 "\e[5C": forward-word
 
 "\e\e[D": backward-word
 "\e[1;5D": backward-word
+"\e[1;3D": backward-word
 "\e[5D": backward-word
 
 "\e[1~": beginning-of-line
