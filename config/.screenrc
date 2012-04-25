@@ -26,4 +26,7 @@ hardstatus string  '%{= Kw}%-Lw%{=b bW}%50>%n: %t%{= Kw}%+Lw%< %{= kG}%-=%D %d %
 bindkey , prev
 bindkey . next
 
-bindkey \011 focus down
+bindkey \011 focus
+bindkey ` focus
+bindkey ~ focus up
+bindkey [Z focus up
