@@ -79,13 +79,21 @@ map! OC <C-Right>
 
 map OA {
 map [A {
+map [1;3A {
+map [1;5A {
 map OB }
 map [B }
+map [1;3B }
+map [1;5B }
 
 map! OA {
 map! [A {
+map! [1;3A {
+map! [1;5A {
 map! OB }
 map! [B }
+map! [1;3B }
+map! [1;5B }
 
 map ( dw
 map  db
