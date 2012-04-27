@@ -307,7 +307,7 @@ function psgrep(){
 #   the results of math operations, or other ruby expressions
 function calc(){ ruby -e "puts $*"; }
 
-add_path $HOME/bin
+add_pre_path $HOME/bin
 add_path $HOME/.bash/bin
 add_path $HOME/.bash/group/bin
 

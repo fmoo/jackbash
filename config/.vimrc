@@ -105,4 +105,14 @@ map > w
 map! < W
 map! > w
 
+map [1;5C e
+map [1;3C e
+map [1;3D b
+map [1;5D b
+
+map! [1;5C e
+map! [1;3C e
+map! [1;3D b
+map! [1;5D b
+
 filetype plugin indent on
