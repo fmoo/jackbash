@@ -96,8 +96,12 @@ map! [1;3B }
 map! [1;5B }
 
 map ( dw
+map [3;3~ dw
+map [3;5~ dw
 map  db
 map! ( dw
+map! [3;3~ dw
+map! [3;5~ dw
 map!  db
 
 map < W
