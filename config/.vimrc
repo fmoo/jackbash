@@ -25,7 +25,6 @@ set tags+=~/src/*/tags
 set tags+=/usr/lib/python2.6/tags
 
 au BufRead,BufNewFile *.thrift set filetype=thrift
-au! Syntax thrift source ~/.vim/thrift.vim
 
 set nu
 syn match tab display "\t"
