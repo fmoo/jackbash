@@ -71,12 +71,12 @@ map! Om -
 map [H <Home>
 map [F <End>
 map OD <C-Left>
-map OC <C-Right>
+map OC e
 
 map! [H <Home>
 map! [F <End>
 map! OD <C-Left>
-map! OC <C-Right>
+map! OC e
 
 map OA {
 map [A {
