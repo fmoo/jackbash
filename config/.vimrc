@@ -9,6 +9,8 @@ set laststatus=2
 "set statusline=%F%m%r%h%w\%=[L:\%l\ C:\%c\ A:\%b\ H:\x%B\ P:\%p%%]
 set statusline=%F\ %m%r%h%w\%=[%p%%]\ [HEX=\%02.2B]\ [POS=%04l,\ %04v]
 
+" Make backspace behave like other apps and jonx
+set backspace=indent,eol,start
 
 set hlsearch
 syntax on
