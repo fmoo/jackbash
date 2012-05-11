@@ -120,4 +120,7 @@ map! [1;3C e
 map! [1;3D b
 map! [1;5D b
 
+" Use cscope-style prompt for ctags
+noremap  <C-]>  g<C-]>
+
 filetype plugin indent on
