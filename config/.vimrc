@@ -124,3 +124,4 @@ map! [1;5D b
 noremap  <C-]>  g<C-]>
 
 filetype plugin indent on
+call pathogen#infect()
