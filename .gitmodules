@@ -16,3 +16,6 @@
 [submodule "extern/vim-javascript"]
 	path = extern/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "extern/vim-arcanist"]
+	path = extern/vim-arcanist
+	url = https://github.com/phleet/vim-arcanist.git
