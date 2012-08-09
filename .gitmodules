@@ -10,3 +10,6 @@
 [submodule "extern/vim-pathogen"]
 	path = extern/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
+[submodule "extern/xml.vim"]
+	path = extern/xml.vim
+	url = https://github.com/othree/xml.vim
