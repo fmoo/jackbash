@@ -9,6 +9,11 @@ fi;
 
 git clone git://github.com/fmoo/jackbash.git $INSTALL_DIR
 
+# Make sure we have all the submodules  (e.g. pathogen, etc)
+pushd $INSTALL_DIR
+git submodule update --init
+popd
+
 for x in $HOME/.bashrc $HOME/.profile $HOME/.bash_profile ; do
   if [ -e $x ]; then
     mv $x "$x"_backup
