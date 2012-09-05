@@ -27,6 +27,7 @@ set tags+=~/src/*/tags
 set tags+=/usr/lib/python2.6/tags
 
 au BufRead,BufNewFile *.thrift set filetype=thrift
+au BufRead,BufNewFile *.json,*.jsn set filetype=json
 
 set nu
 syn match tab display "\t"
