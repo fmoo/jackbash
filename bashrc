@@ -308,6 +308,7 @@ function psgrep(){
 function calc(){ ruby -e "puts $*"; }
 
 add_pre_path $HOME/bin
+add_pre_path $HOME/src/arcanist/bin
 add_path $HOME/.bash/bin
 add_path $HOME/.bash/group/bin
 
@@ -352,3 +353,6 @@ export PATH=$(echo $PATH | awk -F: '
 { start=0; for (i = 1; i <= NF; i++) if (!($i in arr) && $i) {if (start!=0) printf ":";start=1; printf "%s", $i;arr[$i]}; }
 END { printf "\n"; } ')
 
+add_pre_path /home/pete/src/android-sdk-linux/tools
+add_pre_path /home/pete/src/android-sdk-linux/platform-tools
+export CLASSPATH=~/src/android-sdk-linux/platforms/android-16/android.jar:./src:./gen

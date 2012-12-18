@@ -25,6 +25,7 @@ set tags=./tags;/
 set tags+=~/src/ext/*/tags
 set tags+=~/src/*/tags
 set tags+=/usr/lib/python2.6/tags
+set tags+=~/src/android-sdk-linux/sources/android-16/tags
 
 au BufRead,BufNewFile *.thrift set filetype=thrift
 au BufRead,BufNewFile *.json,*.jsn set filetype=json
