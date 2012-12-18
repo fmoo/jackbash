@@ -15,3 +15,8 @@ alternate-installation	alternate.txt	/*alternate-installation*
 alternate-purpose	alternate.txt	/*alternate-purpose*
 alternate-support	alternate.txt	/*alternate-support*
 alternate.txt	alternate.txt	/*alternate.txt*
+xml-plugin-callbacks	xml-plugin.txt	/*xml-plugin-callbacks*
+xml-plugin-html	xml-plugin.txt	/*xml-plugin-html*
+xml-plugin-mappings	xml-plugin.txt	/*xml-plugin-mappings*
+xml-plugin-settings	xml-plugin.txt	/*xml-plugin-settings*
+xml-plugin.txt	xml-plugin.txt	/*xml-plugin.txt*
