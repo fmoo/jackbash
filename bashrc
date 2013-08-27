@@ -353,6 +353,6 @@ export PATH=$(echo $PATH | awk -F: '
 { start=0; for (i = 1; i <= NF; i++) if (!($i in arr) && $i) {if (start!=0) printf ":";start=1; printf "%s", $i;arr[$i]}; }
 END { printf "\n"; } ')
 
-add_pre_path /home/pete/src/android-sdk-linux/tools
-add_pre_path /home/pete/src/android-sdk-linux/platform-tools
+add_pre_path $HOME/src/android-sdk-linux/tools
+add_pre_path $HOME/src/android-sdk-linux/platform-tools
 export CLASSPATH=~/src/android-sdk-linux/platforms/android-16/android.jar:./src:./gen
