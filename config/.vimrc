@@ -1,3 +1,5 @@
+call pathogen#infect()
+
 set expandtab
 set shiftwidth=2
 set tabstop=2
@@ -13,7 +15,7 @@ set statusline=%F\ %m%r%h%w\%=[%p%%]\ [HEX=\%02.2B]\ [POS=%04l,\ %04v]
 set backspace=indent,eol,start
 
 set hlsearch
-syntax on
+syntax enable
 set cindent
 set smartindent
 set autoindent
@@ -29,6 +31,7 @@ set tags+=~/src/android-sdk-linux/sources/android-16/tags
 
 au BufRead,BufNewFile *.thrift set filetype=thrift
 au BufRead,BufNewFile *.json,*.jsn set filetype=json
+au BufRead,BufNewFile *.tconf set filetype=python
 
 set nu
 syn match tab display "\t"
@@ -126,4 +129,3 @@ map! [1;5D b
 noremap  <C-]>  g<C-]>
 
 filetype plugin indent on
-call pathogen#infect()
