@@ -1,0 +1,16 @@
+[ui]
+username = Peter Ruibal <ruibalp@gmail.com>
+
+[extensions]
+color =
+pager =
+purge =
+fetch =
+graphlog =
+strip =
+
+[defaults]
+log = -v
+
+[pager]
+pager = less -R
