@@ -1,3 +1,6 @@
+let g:syntastic_python_checkers=["python", "pyflakes", "pep8"]
+let g:syntastic_python_pep8_post_args="--ignore='E127,E128'"
+
 setlocal tabstop=4
 setlocal shiftwidth=4
 setlocal softtabstop=4
