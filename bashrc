@@ -3,8 +3,8 @@
 #
 # Welcome to the most awesome bash startup script you'll ever see.
 #   It tries to be BSD and GNU compatable, which means it works on
-#   your MAC, cygwin, and sandbox server.  It also tries to be safe 
-#   to add as a source to your .bashrc and .bash_profile.  I usually 
+#   your MAC, cygwin, and sandbox server.  It also tries to be safe
+#   to add as a source to your .bashrc and .bash_profile.  I usually
 #   source this file from both.
 #   It is split into three files
 #   (1) Generic bash stuff
@@ -263,7 +263,7 @@ function google () {
   links http://google.com/search?q=$(echo "$@" | sed s/\ /+/g)
 }
 
-function myip () { 
+function myip () {
  # GNU vs BSD hostname
  (hostname -i &> /dev/null)
   if [ $? -eq 0 ]; then
@@ -345,7 +345,7 @@ fi;
 PERHOST_FILE="$HOME/.bash/group/hostnames/$HOSTNAME_SCRUB.bash"
 if [ -f $PERHOST_FILE ]
 then
-  source $PERHOST_FILE  
+  source $PERHOST_FILE
 fi;
 
 # remove duplicate path entries and preserve PATH order
