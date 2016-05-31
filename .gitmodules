@@ -19,3 +19,12 @@
 [submodule "extern/vim-arcanist"]
 	path = extern/vim-arcanist
 	url = https://github.com/phleet/vim-arcanist.git
+[submodule "extern/vim-eunuch"]
+	path = extern/vim-eunuch
+	url = git://github.com/tpope/vim-eunuch.git
+[submodule "extern/vim-fugitive"]
+	path = extern/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "extern/argcomplete"]
+	path = extern/argcomplete
+	url = git@github.com:kislyuk/argcomplete.git
