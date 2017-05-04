@@ -50,3 +50,10 @@ if [ -e $HOME/.tmux.conf ]; then
   mv $HOME/.tmux.conf $HOME/.tmux.conf_backup
 fi;
 ln -s $INSTALL_DIR/config/.tmux.conf $HOME/.tmux.conf
+
+# Install homebrew
+if [ $(uname) == "Darwin" ]; then
+  ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+  brew install tmux
+  brew install ctags
+fi
