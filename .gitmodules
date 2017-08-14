@@ -28,3 +28,6 @@
 [submodule "extern/argcomplete"]
 	path = extern/argcomplete
 	url = git@github.com:kislyuk/argcomplete.git
+[submodule "extern/editorconfig-vim"]
+	path = extern/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim
