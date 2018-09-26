@@ -83,7 +83,7 @@ _dotfiles_scm_info()
         fi
       fi
     else
-      br=$(expr substr "$dirstate" 1 7)
+      br=${dirstate:1:7}
     fi
     br="$br$extra"
   elif test -n "$git" ; then
@@ -91,7 +91,7 @@ _dotfiles_scm_info()
       read br < "$git/.git/HEAD"
       case $br in
         ref:\ refs/heads/*) br=${br#ref: refs/heads/} ;;
-        *) br=$(expr substr "$br" 1 7) ;;
+        *) br=${br:1:7}
       esac
       if [ -f "$git/.git/rebase-merge/interactive" ]; then
         b="$(cat "$git/.git/rebase-merge/head-name")"
