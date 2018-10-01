@@ -356,3 +356,6 @@ END { printf "\n"; } ')
 add_pre_path $HOME/src/android-sdk-linux/tools
 add_pre_path $HOME/src/android-sdk-linux/platform-tools
 export CLASSPATH=~/src/android-sdk-linux/platforms/android-16/android.jar:./src:./gen
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"

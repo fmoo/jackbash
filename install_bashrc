@@ -57,4 +57,5 @@ if [ $(uname) == "Darwin" ]; then
   brew tap caskroom/cask
   brew install tmux
   brew install ctags
+  brew install nvm
 fi
