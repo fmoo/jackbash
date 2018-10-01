@@ -53,6 +53,16 @@ ln -s $INSTALL_DIR/config/.tmux.conf $HOME/.tmux.conf
 
 # Install homebrew
 if [ $(uname) == "Darwin" ]; then
+  defaults write "Apple Global Domain" "NSUserKeyEquivalents" -dict-add Zoom '@\$m'
+  defaults write "com.apple.Terminal" "Default Window Settings" -string Pro
+  defaults write "com.apple.Terminal" useOptionAsMetaKey -bool true
+
+  defaults write "com.apple.dock" "autohide" -bool TRUE
+  defaults write "com.apple.AppleMultitouchTrackpad" "Clicking" -bool TRUE
+  defaults write "com.apple.driver.AppleBluetoothMultitouch.trackpad" "Clicking" -bool TRUE
+  defaults write "com.apple.AppleMultitouchTrackpad" "TrackpadThreeFingerTapGesture" -bool -int 0
+  defaults write "com.apple.driver.AppleBluetoothMultitouch.trackpad" "TrackpadThreeFingerTapGesture" -bool -int 0
+
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   brew tap caskroom/cask
   sudo chown -R $(whoami) /usr/local/lib
